@@ -123,6 +123,7 @@
 		54754013215220C600F55BF1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				54C3F3F92152127500ACFC9B /* Main.storyboard */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -152,7 +153,6 @@
 			children = (
 				5475400D215220C600F55BF1 /* Classes */,
 				54C3F3F52152127500ACFC9B /* AppDelegate.swift */,
-				54C3F3F92152127500ACFC9B /* Main.storyboard */,
 				54C3F3FC2152127700ACFC9B /* Assets.xcassets */,
 				54C3F3FE2152127700ACFC9B /* LaunchScreen.storyboard */,
 				54C3F4012152127700ACFC9B /* Info.plist */,
@@ -240,6 +240,9 @@
 		54C3F3EA2152127500ACFC9B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1,
+				);
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Zheng Wan Zhang";
