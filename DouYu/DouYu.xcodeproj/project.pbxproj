@@ -14,6 +14,7 @@
 		54C3F4002152127700ACFC9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54C3F3FE2152127700ACFC9B /* LaunchScreen.storyboard */; };
 		54C3F40B2152127700ACFC9B /* DouYuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C3F40A2152127700ACFC9B /* DouYuTests.swift */; };
 		54C3F4162152127700ACFC9B /* DouYuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C3F4152152127700ACFC9B /* DouYuUITests.swift */; };
+		54C3F424215218EE00ACFC9B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54C3F423215218EE00ACFC9B /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		54C3F4112152127700ACFC9B /* DouYuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54C3F4152152127700ACFC9B /* DouYuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuUITests.swift; sourceTree = "<group>"; };
 		54C3F4172152127700ACFC9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54C3F423215218EE00ACFC9B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				54C3F3FC2152127700ACFC9B /* Assets.xcassets */,
 				54C3F3FE2152127700ACFC9B /* LaunchScreen.storyboard */,
 				54C3F4012152127700ACFC9B /* Info.plist */,
+				54C3F423215218EE00ACFC9B /* Images.xcassets */,
 			);
 			path = DouYu;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54C3F4002152127700ACFC9B /* LaunchScreen.storyboard in Resources */,
+				54C3F424215218EE00ACFC9B /* Images.xcassets in Resources */,
 				54C3F3FD2152127700ACFC9B /* Assets.xcassets in Resources */,
 				54C3F3FB2152127500ACFC9B /* Main.storyboard in Resources */,
 			);
@@ -432,8 +436,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,8 +455,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DouYu/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
