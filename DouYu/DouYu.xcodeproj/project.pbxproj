@@ -80,6 +80,116 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5456A5BF21525D56008A9640 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5456A5C021525D56008A9640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5456A5C121525D56008A9640 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5456A5B321525A3A008A9640 /* Home.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5456A5C221525DB4008A9640 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5456A5B921525A91008A9640 /* Follow.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5456A5C321525DB4008A9640 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5456A5C421525DB4008A9640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5456A5C521525DC4008A9640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5456A5C621525DC4008A9640 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5456A5B621525A78008A9640 /* Live.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5456A5C721525DC5008A9640 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5456A5C821525DD0008A9640 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5456A5BC21525AAB008A9640 /* Proflie.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5456A5C921525DD0008A9640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5456A5CA21525DD0008A9640 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5456A5CB21525DF4008A9640 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				54C3F3F92152127500ACFC9B /* Main.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5456A5CC21525DF4008A9640 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5456A5CD21525DF5008A9640 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5475400D215220C600F55BF1 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
@@ -96,7 +206,9 @@
 		5475400E215220C600F55BF1 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				5456A5B321525A3A008A9640 /* Home.storyboard */,
+				5456A5C121525D56008A9640 /* Controller */,
+				5456A5C021525D56008A9640 /* Model */,
+				5456A5BF21525D56008A9640 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -111,7 +223,9 @@
 		54754010215220C600F55BF1 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				5456A5B921525A91008A9640 /* Follow.storyboard */,
+				5456A5C221525DB4008A9640 /* Controller */,
+				5456A5C421525DB4008A9640 /* Model */,
+				5456A5C321525DB4008A9640 /* View */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -119,7 +233,9 @@
 		54754011215220C600F55BF1 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				5456A5B621525A78008A9640 /* Live.storyboard */,
+				5456A5C621525DC4008A9640 /* Controller */,
+				5456A5C521525DC4008A9640 /* Model */,
+				5456A5C721525DC5008A9640 /* View */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -127,7 +243,9 @@
 		54754012215220C600F55BF1 /* Proflie */ = {
 			isa = PBXGroup;
 			children = (
-				5456A5BC21525AAB008A9640 /* Proflie.storyboard */,
+				5456A5C821525DD0008A9640 /* Controller */,
+				5456A5C921525DD0008A9640 /* Model */,
+				5456A5CA21525DD0008A9640 /* View */,
 			);
 			path = Proflie;
 			sourceTree = "<group>";
@@ -135,7 +253,9 @@
 		54754013215220C600F55BF1 /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				54C3F3F92152127500ACFC9B /* Main.storyboard */,
+				5456A5CB21525DF4008A9640 /* Controller */,
+				5456A5CD21525DF5008A9640 /* Model */,
+				5456A5CC21525DF4008A9640 /* View */,
 			);
 			path = Main;
 			sourceTree = "<group>";
